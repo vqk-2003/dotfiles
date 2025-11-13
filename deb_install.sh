@@ -7,6 +7,7 @@ pkgs=(
   xclip
   ripgrep
   fd-find
+  tmux
 )
 
 apt-get update

@@ -9,4 +9,5 @@ pkgs=(
   fd-find
 )
 
+apt-get update
 apt-get -y --ignore-missing install "${pkgs[@]}"

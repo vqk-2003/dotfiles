@@ -15,6 +15,8 @@ pkgs=(
   # Terminal multiplexer
   tmux
   # C/C++ development tools
+  clang-format
+  clangd
   cmake
   ninja-build
 )

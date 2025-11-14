@@ -9,6 +9,8 @@ pkgs=(
   git
   # For Neovim clipboard
   xclip
+  # For snacks' smart picker
+  libsqlite3-dev
   # Better grep and find
   ripgrep
   fd-find

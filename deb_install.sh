@@ -19,6 +19,8 @@ pkgs=(
   clangd
   cmake
   ninja-build
+  # Python development tools
+  pipx
 )
 
 apt-get update

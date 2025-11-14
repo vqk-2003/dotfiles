@@ -2,7 +2,7 @@
 
 pkgs=(
   basedpyright
-  black
+  ruff
 )
 
-pipx install "${pkgs[@]}"
+pipx install -f "${pkgs[@]}"

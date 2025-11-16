@@ -7,16 +7,6 @@ return {
     -- These are package names sourced from the Mason registry,
     -- and may not necessarily match the server names used in lspconfig
     local ensure_installed = {
-      -- Installed clang tools for C/C++ using external package manager
-      -- Language server
-      "lua-language-server", -- Lua
-
-      -- Formatter
-      "stylua", -- Lua
-
-      -- Linter
-
-      -- Debugger
     }
 
     -- Stole from LazyVim and mason-nvim-dap.nvim

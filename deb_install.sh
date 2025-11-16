@@ -1,28 +1,11 @@
 #!/bin/bash
 
 pkgs=(
-  # Basic development tools
+  # Homebrew dependencies
   build-essential
-  # Get online packages
   curl
-  # Version control
-  git
-  # For Neovim clipboard
-  xclip
-  # For snacks' smart picker
+  # Packages that doesn't exist on Homebrew
   libsqlite3-dev
-  # Better grep and find
-  ripgrep
-  fd-find
-  # Terminal multiplexer
-  tmux
-  # C/C++ development tools
-  clang-format
-  clangd
-  cmake
-  ninja-build
-  # Python development tools
-  pipx
 )
 
 apt-get update

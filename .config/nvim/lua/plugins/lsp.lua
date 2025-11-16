@@ -2,9 +2,6 @@ return {
   "neovim/nvim-lspconfig",
   event = "VeryLazy",
   dependencies = {
-    -- Make sure packages are added to PATH
-    "mason-org/mason.nvim",
-
     -- Auto-completion
     "saghen/blink.cmp",
   },

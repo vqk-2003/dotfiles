@@ -1,4 +1,5 @@
 # Neovim stuffs
+brew "neovim"
 brew "xclip"
 brew "ripgrep"
 brew "fd"

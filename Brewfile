@@ -17,3 +17,5 @@ brew "ruff"
 # Lua development tools
 brew "lua-language-server"
 brew "stylua"
+
+brew "tmux"

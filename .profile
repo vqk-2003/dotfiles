@@ -34,4 +34,5 @@ fi
 # Add vcpkg to PATH
 if [ -d "$HOME/opt/vcpkg/" ] ; then
     PATH="$HOME/opt/vcpkg/:$PATH"
+    export VCPKG_ROOT="$HOME/opt/vcpkg/"
 fi

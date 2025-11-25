@@ -19,3 +19,11 @@ brew "lua-language-server"
 brew "stylua"
 
 brew "tmux"
+
+# Embedded development
+brew "open-ocd"
+brew "arm-none-eabi-gcc"
+brew "arm-none-eabi-gdb"
+brew "arm-none-eabi-binutils"
+brew "minicom"
+brew "qemu"

@@ -18,7 +18,12 @@ brew "ruff"
 brew "lua-language-server"
 brew "stylua"
 
+# Old utils
 brew "tmux"
+
+# New utils
+brew helix
+brew zellij
 
 # Embedded development
 brew "open-ocd"

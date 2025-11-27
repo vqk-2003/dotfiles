@@ -34,7 +34,13 @@ return {
         },
       },
     },
-    picker = {},
+    picker = {
+      sources = {
+        files = {
+          hidden = true,
+        }
+      }
+    },
   },
   keys = {
     {

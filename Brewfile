@@ -22,8 +22,8 @@ brew "stylua"
 brew "tmux"
 
 # New utils
-brew helix
-brew zellij
+brew "helix"
+brew "zellij"
 
 # Embedded development
 brew "open-ocd"

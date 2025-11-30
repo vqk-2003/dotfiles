@@ -18,10 +18,10 @@ brew "ruff"
 brew "lua-language-server"
 brew "stylua"
 
-# Old utils
+# For old machine
 brew "tmux"
 
-# New utils
+# For personal machine
 brew "helix"
 brew "zellij"
 
@@ -32,3 +32,4 @@ brew "arm-none-eabi-gdb"
 brew "arm-none-eabi-binutils"
 brew "minicom"
 brew "qemu"
+brew "probe-rs-tools"

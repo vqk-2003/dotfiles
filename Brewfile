@@ -9,6 +9,7 @@ brew "cmake"
 brew "ninja"
 brew "clang-format"
 brew "llvm" # For clangd
+brew "neocmakelsp" # For CMake
 
 # Python development tools
 brew "basedpyright"

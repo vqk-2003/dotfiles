@@ -7,6 +7,8 @@ pkgs=(
   # Packages that doesn't exist on Homebrew
   libsqlite3-dev
   libssl-dev
+  # Packages that doesn't work when install via Homebrew
+  minicom
 )
 
 apt-get update

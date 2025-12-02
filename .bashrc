@@ -117,10 +117,14 @@ if ! shopt -oq posix; then
 fi
 
 # Add Rust to PATH
-. "$HOME/.cargo/env"
+if [ -f "$HOME/.cargo/env" ]; then
+  . "$HOME/.cargo/env"
+fi
 
 # Add Homebrew to PATH
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 
 # Setup environement variable for esp
-. "$HOME/export-esp.sh"
+if [ -f "$HOME/export-esp.sh" ]; then
+  . "$HOME/export-esp.sh"
+fi

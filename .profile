@@ -27,9 +27,13 @@ if [ -d "$HOME/.local/bin" ] ; then
 fi
 
 # Add Rust to PATH
-. "$HOME/.cargo/env"
+if [ -f "$HOME/.cargo/env" ]; then
+  . "$HOME/.cargo/env"
+fi
 
-. "$HOME/.local/bin/env"
+if [ -f "$HOME/.local/bin/env" ]; then
+  . "$HOME/.local/bin/env"
+fi
 
 # Add vcpkg to PATH
 if [ -d "$HOME/opt/vcpkg/" ] ; then
@@ -38,4 +42,6 @@ if [ -d "$HOME/opt/vcpkg/" ] ; then
 fi
 
 # Setup environment variable for esp
-. "$HOME/export-esp.sh"
+if [ -f "$HOME/export-esp.sh" ]; then
+  . "$HOME/export-esp.sh"
+fi

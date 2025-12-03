@@ -5,8 +5,6 @@ brew "ripgrep"
 brew "fd"
 
 # C/C++ development tools
-brew "cmake"
-brew "ninja"
 brew "clang-format"
 brew "llvm" # For clangd
 brew "neocmakelsp" # For CMake
@@ -27,9 +25,4 @@ brew "helix"
 brew "zellij"
 
 # Embedded development
-brew "open-ocd"
-brew "arm-none-eabi-gcc"
-brew "arm-none-eabi-gdb"
-brew "arm-none-eabi-binutils"
-brew "qemu"
 brew "probe-rs-tools"

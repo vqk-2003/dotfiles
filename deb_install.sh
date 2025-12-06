@@ -16,6 +16,10 @@ pkgs=(
   qemu-system-arm
   cmake
   ninja-build
+  # Neovim stuffs
+  xclip
+  fd-find
+  ripgrep
 )
 
 apt-get update

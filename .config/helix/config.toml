@@ -3,3 +3,8 @@ theme = "everforest_dark"
 [editor]
 line-number = "relative"
 cursorline = true
+continue-comments = false
+popup-border = "all"
+
+[editor.inline-diagnostics]
+cursor-line = "warning"

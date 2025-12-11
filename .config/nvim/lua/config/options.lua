@@ -12,6 +12,9 @@ opt.clipboard = "unnamedplus"
 -- Show line numbers
 opt.number = true
 
+-- Show relative numbers
+opt.relativenumber = true
+
 -- Enable mouse mode
 opt.mouse = "a"
 

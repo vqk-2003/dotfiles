@@ -8,3 +8,6 @@ popup-border = "all"
 
 [editor.inline-diagnostics]
 cursor-line = "warning"
+
+[editor.file-picker]
+hidden = false

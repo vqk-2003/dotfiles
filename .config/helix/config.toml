@@ -11,3 +11,6 @@ cursor-line = "warning"
 
 [editor.file-picker]
 hidden = false
+
+[editor.lsp]
+display-inlay-hints = true
